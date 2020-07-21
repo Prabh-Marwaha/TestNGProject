@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="6" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="94" started-at="2020-06-24T17:37:32 IST" finished-at="2020-06-24T17:37:33 IST">
+    <groups>
+      <group name="Functional">
+        <method signature="ClassA.M3()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M3" class="GroupingConcept.ClassA"/>
+      </group> <!-- Functional -->
+      <group name="Functional,Regression,Sanity">
+        <method signature="ClassA.M4()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M4" class="GroupingConcept.ClassA"/>
+      </group> <!-- Functional,Regression,Sanity -->
+      <group name="Snaity">
+        <method signature="ClassA.M2()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M2" class="GroupingConcept.ClassA"/>
+      </group> <!-- Snaity -->
+      <group name="Smoke">
+        <method signature="ClassA.M1()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M1" class="GroupingConcept.ClassA"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Test" duration-ms="94" started-at="2020-06-24T17:37:32 IST" finished-at="2020-06-24T17:37:33 IST">
+      <class name="GroupingConcept.ClassA">
+        <test-method status="PASS" signature="M1()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M1" duration-ms="18" started-at="2020-06-24T17:37:32 IST" finished-at="2020-06-24T17:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M1 -->
+        <test-method status="PASS" signature="M2()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M2" duration-ms="2" started-at="2020-06-24T17:37:33 IST" finished-at="2020-06-24T17:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M2 -->
+        <test-method status="PASS" signature="M3()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M3" duration-ms="2" started-at="2020-06-24T17:37:33 IST" finished-at="2020-06-24T17:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M3 -->
+        <test-method status="PASS" signature="M4()[pri:0, instance:GroupingConcept.ClassA@72b6cbcc]" name="M4" duration-ms="3" started-at="2020-06-24T17:37:33 IST" finished-at="2020-06-24T17:37:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- M4 -->
+      </class> <!-- GroupingConcept.ClassA -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
